@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-27T06:19:34.148Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="0awiKKutXMBCNSJwslra" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-27T09:09:28.249Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="Pi0SoD7eXtZdrAUMsZ-8" version="22.1.11" type="github">
   <diagram name="第 1 页" id="gJ-0IFceFZDGzHO0j6Qg">
-    <mxGraphModel dx="622" dy="383" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="425" dy="359" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -63,6 +63,48 @@
         </mxCell>
         <mxCell id="nlna6v_LmmTtRzZrwIii-41" value="0x2F：退出AVM" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="212" y="690" width="135" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nlna6v_LmmTtRzZrwIii-43" value="socket接口" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="173" y="145" width="46" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="nlna6v_LmmTtRzZrwIii-44" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="47" y="227" width="314" height="267" as="geometry" />
+        </mxCell>
+        <mxCell id="nlna6v_LmmTtRzZrwIii-46" value="AndroidProtocol" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="75.5" y="227" width="90" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="nlna6v_LmmTtRzZrwIii-47" value="ProcessMessage" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="47" y="277" width="127" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nlna6v_LmmTtRzZrwIii-49" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="194" y="283" width="159" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="nlna6v_LmmTtRzZrwIii-50" value="Recv_thread" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="194" y="279" width="186" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nlna6v_LmmTtRzZrwIii-52" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="nlna6v_LmmTtRzZrwIii-43" target="nlna6v_LmmTtRzZrwIii-49">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="211" y="247" as="sourcePoint" />
+            <mxPoint x="261" y="197" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="279" y="242" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nlna6v_LmmTtRzZrwIii-54" value="parse_protocol_DataProcess&lt;br&gt;数据解析" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="215" y="318" width="117" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nlna6v_LmmTtRzZrwIii-55" value="create ProcotolMessage" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="219" y="368" width="117" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nlna6v_LmmTtRzZrwIii-56" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="nlna6v_LmmTtRzZrwIii-49" target="nlna6v_LmmTtRzZrwIii-47">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="109" y="453" as="sourcePoint" />
+            <mxPoint x="159" y="403" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="193" y="420" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
